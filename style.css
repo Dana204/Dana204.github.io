@@ -162,6 +162,7 @@
 }
 .sections-skills {
     display: flex; 
+    font-size: 18px; 
 }
 
 /* END OF MAIN */
