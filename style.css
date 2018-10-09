@@ -1,4 +1,5 @@
 :root{
+    --flame: #d8572a;
     --viridianGreen:#12a09e;
     --black: #000;
     --white: #fff;
@@ -33,7 +34,7 @@
     grid-row: 1;
     
     text-align: center;
-    background-color: var(--viridianGreen);
+    background-color: var(--flame);
     padding: 15px 10px 45px 10px;
     color: var(--white);
     font-family: 'Times New Roman', Times, serif;
