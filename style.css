@@ -62,6 +62,11 @@
     display: block;
     margin: 0 auto;
 }
+
+.title {
+    color: var(--flame);
+}
+
 .contact > h5 > a {
     text-decoration: none;
     color: var(--black);
