@@ -9,7 +9,6 @@
     --twitter: #76a9ea;
     --link: #6b0465;
     --gray: #777;
-    --instagram: linear-gradient(47deg, #9f119b 0%, #e62145 100%);
 }
 
 .grid-container {
@@ -79,9 +78,14 @@
 
 .icon {
     margin-right: 5px;
-    font-size: 1.2rem;
 }
 
+.contact .icon {
+    font-size: 1.2rem;
+}
+.social-media .icon {
+    font-size: 1.3rem;
+}
 .linkedin {
     color: var(--linkedin);
 }
@@ -95,9 +99,12 @@
 }
 
 .instagram {
-    background-color: -webkit-linear-gradient(30deg, #9f0715 0%, #a10031 16%, #a20043 33%, #a20056 50%, #a1006d 66%, #9d0089 83%, #5700ff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    background: -webkit-linear-gradient(30deg, #9f0715 0%, #a10031 16%, #a20043 33%,
+     #a20056 50%, #a1006d 66%, #9d0089 83%, #5700ff 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
 }
 /* END OF ASIDE */
 
