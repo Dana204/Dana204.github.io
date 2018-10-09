@@ -59,7 +59,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 2px solid var(--white);
+    border: 5px solid var(--white);
     display: block;
     margin: 0 auto;
 }
