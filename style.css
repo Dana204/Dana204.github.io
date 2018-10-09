@@ -123,6 +123,7 @@
 
 .heading {
     font-weight: normal;
+    color: var(--flame);
 }
 
 .experience , .education {
