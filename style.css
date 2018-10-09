@@ -95,7 +95,9 @@
 }
 
 .instagram {
-    color: linear-gradient(30deg, #9f0715 0%, #a10031 16%, #a20043 33%, #a20056 50%, #a1006d 66%, #9d0089 83%, #5700ff 100%);
+    background-color: -webkit-linear-gradient(30deg, #9f0715 0%, #a10031 16%, #a20043 33%, #a20056 50%, #a1006d 66%, #9d0089 83%, #5700ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* END OF ASIDE */
 
@@ -147,4 +149,5 @@
 .sections-skills {
     display: flex; 
 }
+
 /* END OF MAIN */
