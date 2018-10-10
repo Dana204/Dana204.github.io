@@ -15,7 +15,7 @@
     justify-content: center;
 
     display: grid;
-    grid-template-columns: 150px 250px 800px 150px;
+    grid-template-columns: 150px 280px 800px 150px;
     grid-template-rows: 20% 40%;
     grid-row-gap: 8px;
     grid-column-gap: 8px;
