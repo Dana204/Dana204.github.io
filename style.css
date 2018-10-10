@@ -1,14 +1,13 @@
 :root{
     --flame: #d8572a;
-    --viridianGreen:#12a09e;
     --black: #000;
     --white: #fff;
     --lightGray: #ebeced;
+    --gray: #777;
     --linkedin: #057ab8;
     --facebook: #495b94;
     --twitter: #76a9ea;
-    --link: #6b0465;
-    --gray: #777;
+    --link: #6b0465; 
 }
 
 .grid-container {
