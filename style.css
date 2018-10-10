@@ -25,6 +25,7 @@
     "....... side-bar main .......";
 }
 
+
 /* HEADER */
 .header {
     grid-area: header;
@@ -134,7 +135,7 @@
 .experience , .education {
     display: grid;
     grid-template-columns: 150px 400px;
-    grid-template-rows: 30px 50px;
+    grid-template-rows: 30px 70px;
     grid-column-gap: 30px;
     grid-template-areas: 
     "row1-column1  row1-column2"
