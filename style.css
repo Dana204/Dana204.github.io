@@ -3,7 +3,6 @@
     --black: #000;
     --white: #fff;
     --lightGray: #ebeced;
-    --gray: #777;
     --linkedin: #057ab8;
     --facebook: #495b94;
     --twitter: #76a9ea;
@@ -11,15 +10,15 @@
 }
 
 .grid-container {
-    font-family: sans-serif;
+    font-family:  sans-serif;
     display: flex;
     justify-content: center;
 
     display: grid;
-    grid-template-columns: 180px 250px 700px 180px;
+    grid-template-columns: 150px 250px 800px 150px;
     grid-template-rows: 20% 40%;
     grid-row-gap: 8px;
-    grid-column-gap: 0px;
+    grid-column-gap: 8px;
     grid-template-areas: 
     "header  header header header"
     "....... side-bar main .......";
@@ -36,13 +35,22 @@
     background-color: var(--flame);
     padding: 15px 10px 45px 10px;
     color: var(--white);
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .header-box {
     display: inline-block;
     padding: 0px 30px;
     border: 1px solid var(--white);
+}
+
+.header-box > h1 {
+    font-size: 50px;
+    font-family: 'Alex Brush', cursive,'Times New Roman';
+}
+
+.header-box > h5 {
+    font-size: 20px;
+    font-family: 'Arbutus+Slab', serif;
 }
 /* END OF HEADER */
 
@@ -66,6 +74,8 @@
 
 .title {
     color: var(--flame);
+    font-size: 30px;
+    font-family: 'Arbutus Slab', serif;
 }
 
 .contact > h5 > a {
@@ -76,8 +86,12 @@
     border-top: 2px solid var(--black);
 }
 
+.smedia-link, .contact {
+    font-size: 20px;
+}
+
 .smedia-link {
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     display: block;
     color: var(--link);
 }
@@ -121,6 +135,7 @@
     grid-column: 3 / span 1;
     grid-row: 2;
     padding: 0px 10px;
+    border-left: 4px solid var(--flame);
 }
 
 .sections {
@@ -128,18 +143,29 @@
 }
 
 .heading {
-    font-weight: normal;
+    font-family: 'Arbutus+Slab', serif;
     color: var(--flame);
+    font-size: 30px;
+    background-color: var(--lightGray);
+    padding: 8px;
+}
+
+.biography {
+    font-size: 20px;
+    word-spacing: 5px;
 }
 
 .experience , .education {
     display: grid;
-    grid-template-columns: 150px 400px;
-    grid-template-rows: 30px 70px;
+    grid-template-columns: 180px 500px;
+    grid-template-rows: 40px 70px;
     grid-column-gap: 30px;
     grid-template-areas: 
     "row1-column1  row1-column2"
     "....... row2-column2";
+}
+.row1-column1, .row2-column2 {
+    font-size: 20px;
 }
 
 .row1-column1 {
@@ -153,16 +179,20 @@
     grid-area: row1-column2;
     grid-column: 2;
     grid-row: 1;
-    padding-bottom: 20px;
 }
 .row2-column2 {
     grid-area: row2-column2;
     grid-column: 2;
     grid-row: 2;
 }
-.sections-skills {
+
+.row1-column2, .skills {
+    font-size: 22px;
+}
+.skills {
     display: flex; 
-    font-size: 18px; 
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* END OF MAIN */
